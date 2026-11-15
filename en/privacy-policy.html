@@ -8,14 +8,37 @@ main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
 h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 28px 0 8px; }
 .brand { color: var(--orange); font-weight: 800; } .muted { color: var(--muted); font-size: 14px; }
 a { color: var(--orange); }
+ul { margin: 8px 0; padding-left: 22px; } li { margin: 4px 0; }
 </style></head><body><main><div class="card">
 <h1><span class="brand">Evde Fitness</span> Privacy Policy</h1>
-<p class="muted">Last updated: October 21, 2026 · <a href="../privacy-policy.html">Türkçe</a></p>
+<p class="muted">Last updated: November 15, 2026 · <a href="../privacy-policy.html">Türkçe</a></p>
 <p>This policy applies to the iOS app <strong>Evde Fitness</strong> (Home Workout for Men), developed by Hasan Berke Çakmak. We respect your privacy. This policy explains what information the app uses and how it is protected.</p>
-<h2>Data we collect</h2>
-<p>The information you enter during onboarding (goal, height, weight, year of birth, injuries and similar), your workout history and your weight log are never sent to any server; they are stored <strong>only on your device</strong>. The only information that leaves your device is the anonymous purchase information described under "Purchases and subscriptions" below.</p>
+<h2>In short</h2>
+<ul>
+<li>Your body and health information (weight, height, age, injuries and similar) stays <strong>only on your device</strong>.</li>
+<li>Only two kinds of information leave your device: <strong>anonymous usage statistics</strong> (which you can turn off) and the <strong>anonymous purchase information</strong> needed to validate purchases.</li>
+<li>No ads, no account, no cross-app tracking, and your data is never sold.</li>
+</ul>
+<h2>Data that stays on your device</h2>
+<p>The height, weight, target weight, year of birth, body type and injury information you enter during onboarding, your body mass index, your plan, your workout history and your weight log are stored <strong>only on your device</strong>; they are not sent to us or to any other company. You do not need to create an account or give your name or email address to use the app.</p>
+<h2>Anonymous usage statistics (Mixpanel)</h2>
+<p>From version 1.1, the app sends anonymous usage events. The only purpose is <strong>improving the app</strong>: seeing at which step people get stuck, which workouts are used and where errors happen. These events are sent to <strong>Mixpanel</strong> (Mixpanel, Inc.), an analytics service that processes the data on our behalf, and are stored in Mixpanel's data centre in the European Union (Mixpanel's EU Data Residency program).</p>
+<p><strong>What is sent:</strong></p>
+<ul>
+<li><strong>Screens and steps you reach:</strong> opening the app, how far you get in the onboarding questions, which tab you open, when the Premium screen is shown, and which features you use (for example opening the details of a workout, skipping a rest, changing your level or reminder, adding a weight entry; the value of the entry is never sent).</li>
+<li><strong>The general choices that shape your plan, as categories only:</strong> type of goal, fitness level, how many days a week and how many minutes per session you chose, how many focus areas you picked, and whether reminders are on.</li>
+<li><strong>Workout events:</strong> which workout was started, finished or quit, its level, how long it took and what percentage was completed.</li>
+<li><strong>Purchase steps:</strong> a purchase being started, completed, cancelled or failing with an error code; the kind of product (yearly, monthly, lifetime), whether it includes a free trial, and whether Premium is active. No price or payment details are sent.</li>
+<li><strong>Technical information:</strong> app version, app language, the country code from your device's region setting (for example "US"), device model, iOS version, screen size and the number of days since installation.</li>
+<li><strong>A random install ID:</strong> a number the app generates at random for this installation. It is not derived from your device, your Apple Account or your advertising identifier (IDFA/IDFV); it only links events from the same installation together and does not reveal who you are.</li>
+</ul>
+<p><strong>What is never sent:</strong> your weight, target weight, height, age or year of birth, body mass index, body type choices, injuries, weight log, name, email address, payment details, any text you type into the app, or your location (neither precise location nor location derived from your IP address). As with any internet connection, the request reaches Mixpanel from your IP address; however, the app switches off Mixpanel's IP-based location lookup and the IP address is not stored with the events.</p>
+<p>This data is not used for advertising, is never sold, is not combined with data from other apps or websites, and is not used to track you across apps. No user profiles are created.</p>
+<p><strong>How to turn it off:</strong> you can stop this at any time by switching off <em>Settings → Share usage statistics</em> in the app. When you switch it off, the app sends one last event noting that statistics were turned off, then stops recording and sending usage events, and the random install ID is reset. Every feature of the app keeps working the same way.</p>
+<p><strong>Retention:</strong> usage events are kept at Mixpanel for no longer than 2 years and are deleted automatically after that.</p>
+<p>How Mixpanel processes data is described in the <a href="https://mixpanel.com/legal/privacy-policy">Mixpanel Privacy Policy</a>.</p>
 <h2>Third parties, advertising and tracking</h2>
-<p>The app contains no advertising, no analytics tools and no tracking. The only third-party service we use is <strong>RevenueCat</strong>, the subscription infrastructure that validates purchases (see below). Your data is never sold or shared for advertising.</p>
+<p>The app contains no advertising and no cross-app tracking. The only third-party services we use are <strong>Mixpanel</strong> for anonymous usage statistics (see above) and <strong>RevenueCat</strong>, the subscription infrastructure that validates purchases (see below). Your data is never sold or shared for advertising.</p>
 <h2>Purchases and subscriptions</h2>
 <p>Evde Fitness Premium purchases and subscriptions are made through Apple's App Store; <strong>Apple processes all payments</strong>. Your card number, billing address and other payment details never reach the app or us.</p>
 <p>Your purchases are validated through <strong>RevenueCat</strong> (RevenueCat, Inc.), a subscription infrastructure provider. For this, RevenueCat receives an <strong>anonymous app user ID</strong> randomly generated by the app, the <strong>purchase and transaction information</strong> provided by Apple (such as the plan purchased, purchase and renewal dates, trial period, price and currency, and the App Store transaction ID), and the technical information needed to process the request (such as app and iOS version, language and App Store country). This information is used only to validate purchases, unlock Premium, manage your subscription (renewals, cancellations, refunds, restores) and give us aggregated sales statistics. Your name, email address, payment details and the health and workout information you enter in the app are never sent to RevenueCat; the anonymous ID does not identify you personally and is not used for tracking or advertising. How RevenueCat processes data is described in the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>.</p>
@@ -23,7 +46,10 @@ a { color: var(--orange); }
 <h2>Notifications</h2>
 <p>Workout reminders are local notifications scheduled on your device. You can turn them off at any time in iOS Settings.</p>
 <h2>Deleting your data</h2>
-<p>In the app, <em>Settings → Delete all data</em> permanently deletes all of your data on the device. Deleting the app also removes all data on the device. These actions do not delete the anonymous purchase record at RevenueCat or Apple's purchase records; if you would like the RevenueCat record deleted, write to the address below (you may need to include the order ID from your App Store receipt so we can find it).</p>
+<p>In the app, <em>Settings → Delete all data</em> permanently deletes all of your data on the device. Deleting the app also removes all data on the device, including the random install ID. These actions do not delete the anonymous purchase record at RevenueCat, Apple's purchase records or the anonymous usage events already sent to Mixpanel.</p>
+<p>If you would like the RevenueCat record deleted, write to the address below (you may need to include the order ID from your App Store receipt so we can find it). Because usage events carry only a random ID and we do not know who you are, we usually cannot find the events of one particular person; if you write to us anyway, we will look at what we can do and delete any records we can find. To stop new events from being sent, simply switch off <em>Settings → Share usage statistics</em>.</p>
+<h2>Changes to this policy</h2>
+<p>November 15, 2026 (version 1.1): added anonymous usage statistics (Mixpanel) and the option to turn them off. The previous version of the app did not collect usage statistics.</p>
 <h2>Children</h2>
 <p>Evde Fitness is not directed at children under 13.</p>
 <h2>Contact</h2>
